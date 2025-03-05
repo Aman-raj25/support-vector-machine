@@ -3,7 +3,6 @@
 This project implements a **Support Vector Machine (SVM) from scratch** using **NumPy**.  
 It is trained using **mini-batch gradient descent** with **hinge loss optimization** and supports **decision boundary visualization**.
 
----
 
  **📌 Features**  
 
@@ -13,9 +12,8 @@ It is trained using **mini-batch gradient descent** with **hinge loss optimizati
 ✅ **Supports vector identification**  
 ✅ **Decision boundary visualization** with margins  
 
----
 
-## **📦 Installation**  
+## **Installation**  
 
 ### **Prerequisites**  
 Ensure you have **Python 3.x** installed along with the required libraries:  
@@ -24,9 +22,8 @@ Ensure you have **Python 3.x** installed along with the required libraries:
 pip install numpy matplotlib scikit-learn
 ```
 
----
 
-## **🚀 Usage**  
+## **Usage**  
 
 ### **Clone the repository:**  
 ```bash
@@ -39,41 +36,27 @@ cd support-vector-machine
 python SVM.ipynb
 ```
 
----
 
-## **📊 Expected Output**  
+## **Expected Output**  
 
 - The console will display **Data Distribution**.  
 - A **decision boundary plot** will be generated, showing **support vectors and margins**.  
 
----
 
-## **🗂 File Structure**  
+## **File Structure**  
 ```
 ├── SVM.ipynb  # Main script for training & visualization
 ├── README.md            # Project documentation
 ```
 
----
 
-## **📌 Example Output**  
-```python
-![image](https://github.com/user-attachments/assets/ede95bd2-232f-49b6-aed8-49582026fd46)
-
-Final Model Trained. Decision boundary plotted.
-```
-
----
-
-## **👨‍💻 Author**  
+## **Author**  
 **Aman Raj**  
 
----
 
-## **🤝 Contributing**  
+## **Contributing**  
 Feel free to **fork this repository** and submit **pull requests**.  
 For major changes, please **open an issue** first to discuss your ideas.  
 
----
 
 ### **Happy Coding! 🚀🔥**
