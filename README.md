@@ -1,22 +1,23 @@
-# Support Vector Machine (SVM) from Scratch  
+Support Vector Machine (SVM) from Scratch
+This project implements a Support Vector Machine (SVM) from scratch using NumPy.
+It is trained using mini-batch gradient descent with hinge loss optimization and supports decision boundary visualization.
 
-This project implements **Support Vector Machine (SVM) from scratch** using **NumPy**.  
-It is trained using **batch gradient descent** with hinge loss optimization and supports **decision boundary visualization**.
+📌 Features
+✅ Implements both Hard Margin and Soft Margin SVM
+✅ Uses Hinge Loss for optimization
+✅ Mini-batch Gradient Descent implementation
+✅ Supports vector identification
+✅ Decision boundary visualization with margins
 
-## Features  
-✅ Implements both **Hard Margin and Soft Margin SVM**  
-✅ Uses **Hinge Loss** for optimization  
-✅ Mini-batch **Gradient Descent** implementation  
-✅ **Supports vector identification**  
-✅ **Decision boundary visualization** with margins  
+📦 Installation
+Prerequisites
+Ensure you have Python 3.x installed along with the required libraries:
 
-## Installation  
-### Prerequisites  
-Ensure you have Python 3.x installed along with the required libraries:  
-
-```bash
+bash
+Copy
+Edit
 pip install numpy matplotlib scikit-learn
-Usage
+🚀 Usage
 Clone the repository:
 bash
 Copy
@@ -28,27 +29,24 @@ bash
 Copy
 Edit
 python svm_from_scratch.py
-Expected Output
-The console will display loss values at each epoch.
-A real-time decision boundary plot will be generated, showing support vectors and margins.
-File Structure
+📊 Expected Output
+The console will display Data Distribution.
+A decision boundary plot will be generated, showing support vectors and margins.
+📂 File Structure
 bash
 Copy
 Edit
 ├── svm_from_scratch.py  # Main script for training & visualization
 ├── README.md            # Project documentation
-Example Output
-python-repl
-Copy
-Edit
-Epoch 100: Loss = 1.25
-Epoch 200: Loss = 0.98
-...
+📌 Example Output
+![image](https://github.com/user-attachments/assets/8bac84c2-8dae-4c64-9c06-abbd4c78ca25)
+
 Final Model Trained. Decision boundary plotted.
-Author
+👨‍💻 Author
 Aman Raj
 
-Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss your ideas.
+🤝 Contributing
+Feel free to fork this repository and submit pull requests.
+For major changes, please open an issue first to discuss your ideas.
 
-Happy Coding! 🚀
+Happy Coding! 🚀🔥
