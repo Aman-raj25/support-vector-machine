@@ -5,7 +5,7 @@ It is trained using **mini-batch gradient descent** with **hinge loss optimizati
 
 ---
 
-## **📌 Features**  
+ **📌 Features**  
 
 ✅ Implements both **Hard Margin and Soft Margin SVM**  
 ✅ Uses **Hinge Loss** for optimization  
